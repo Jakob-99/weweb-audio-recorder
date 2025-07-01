@@ -1,0 +1,8 @@
+{
+  "name": "AudioRecorder",
+  "displayName": "Audio Recorder",
+  "description": "A simple component to record audio from the user's microphone.",
+  "icon": "mic",
+  "tags": ["audio", "recorder", "media"],
+  "category": "Media"
+}
