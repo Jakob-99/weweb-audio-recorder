@@ -1,8 +1,8 @@
 {
-  "name": "AudioRecorder",
-  "displayName": "Audio Recorder",
-  "description": "A simple component to record audio from the user's microphone.",
-  "icon": "mic",
-  "tags": ["audio", "recorder", "media"],
-  "category": "Media"
+  "name": "HelloComponent",
+  "displayName": "Hello Component",
+  "description": "A simple test component that renders a message and a button.",
+  "icon": "smile",
+  "tags": ["test", "hello"],
+  "category": "Basic"
 }
