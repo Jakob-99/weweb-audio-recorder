@@ -35,12 +35,5 @@ export default {
       const blob = new Blob(this.recordedChunks, { type: "audio/webm" });
       this.audioUrl = URL.createObjectURL(blob);
     },
-  },
-  template: `
-    <div>
-      <button @click="startRecording" :disabled="isRecording">🎙️ Start</button>
-      <button @click="stopRecording" :disabled="!isRecording">🛑 Stop</button>
-      <audio v-if="audioUrl" :src="audioUrl" controls></audio>
-    </div>
-  `,
+  }
 };
